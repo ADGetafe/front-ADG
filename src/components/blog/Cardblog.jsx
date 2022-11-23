@@ -33,6 +33,7 @@ return (
                 </div>
 
                 <div className="card-body">
+                    <p>{int.creacion_noticia.date}</p>
                     <p>{int.fragmento_noticia}</p>
                 </div>
 
