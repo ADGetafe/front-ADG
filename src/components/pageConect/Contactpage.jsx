@@ -1,5 +1,5 @@
 import React from 'react'
-import FormContacto from '../formularios/form_contacto/formulario/FormContacto'
+import FormContacto from '../contact/form_contacto/formulario/FormContacto.js'
 import Contact from '../contact/Contact'
 
 function Contactpage() {
