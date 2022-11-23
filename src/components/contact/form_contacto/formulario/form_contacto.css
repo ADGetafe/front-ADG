@@ -1,3 +1,8 @@
+.headingIngresar h1 {
+	text-align: center;
+	font-size: 45px;
+}
+
 .container_fcontact {
 	width: 40%;    
 	padding: 20px;
@@ -63,22 +68,10 @@
 	background-color: #0093CE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	margin-top: 30px;
+	font-size: 25px;
     
-}	
+}	   
 
-
-   
-[type="checkbox"]{
-    appearance: none;
-    border:0.1px solid rgb(142, 141, 141);
-    width: 15px;
-    height: 15px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border:0.1px solid rgb(142, 141, 141);
-	
-
- 
-}
  
 
 @media only screen and (min-width: 769px) and (max-width: 1500px) {

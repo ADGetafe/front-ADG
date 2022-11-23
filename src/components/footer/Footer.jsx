@@ -3,7 +3,7 @@ import './footer.css'
 import logo from '../../assets/Logo1.png';
 import mapa from '../../assets/mapa.png';
 import { FaEnvelope, FaMobile, FaPhone } from 'react-icons/fa';
-
+import { Link } from "react-router-dom"
 function Footer() {
   return (
     <>
@@ -46,6 +46,9 @@ function Footer() {
         </div>
         <div className='legal-footer container-footer'>
           <p>Copyright © 2022 ADGetafe. All Rights Reserved.</p>
+          <Link to='/ingresar'> 
+          <p>@</p>
+          </Link>
           
         </div>
       </footer>
