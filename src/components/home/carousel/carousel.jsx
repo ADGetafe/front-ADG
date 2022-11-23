@@ -3,6 +3,7 @@ import './Carousel.css';
 import { Button } from '@material-ui/core';
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight"
 import Carousel from "react-elastic-carousel";
+import { Link } from "react-router-dom"
 // import Item from "./item";
 import styled from "styled-components";
 // import { FaAngleRight, FaAngleLeft } from 'react-icons/fa';
@@ -48,9 +49,12 @@ return (
           <h2 className='titulo-noticia-carr'>{int.titulo_noticia}</h2>
           <p className='titulo-noticia-carr'>{int.creacion_noticia.date}</p>
           <p className='titulo-noticia-carr'>{int.fragmento_noticia}</p>
+        
+        <Link to={`/leer/mas/${int.id}`}>
         <Button>
         Leer más <KeyboardDoubleArrowRightIcon className='icon-diabete' />
         </Button>
+        </Link>
         </div>
         {/* </div> */}
           </Item>
