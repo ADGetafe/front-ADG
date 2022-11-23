@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import './cardblog.css';
 
 
-function Cardblog({title,imageUrl,body}) {
+function Cardnoticias({title,imageUrl,body}) {
 const [noticias, setNoticias] = useState([]);
 
 useEffect(() => {
@@ -52,4 +52,4 @@ return (
 )
 };
 
-export default Cardblog;
+export default Cardnoticias;

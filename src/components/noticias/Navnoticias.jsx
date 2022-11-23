@@ -1,7 +1,7 @@
 import React from 'react';
-import "./barra.css"
+import "./navnoticias.css"
 
-function Barra() {
+function Navnoticias() {
   return (
     <div class="navbar-categorias">
       <a href="/">Diabetes</a>
@@ -15,4 +15,4 @@ function Barra() {
   )
 }
 
-export default Barra
+export default Navnoticias
