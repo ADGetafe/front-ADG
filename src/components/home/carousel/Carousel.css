@@ -1,0 +1,32 @@
+.carr {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.rec-carousel{
+    height: 100vh;
+}
+
+.texto{
+    width: 30%;
+}
+
+.carr-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carr-img {
+    width: 150px;
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.titulo-noticia-carr{
+    font-size: 15px;
+}
