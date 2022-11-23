@@ -12,3 +12,20 @@
     color: white;
     display: flex;
 }
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .inicioNoticias{
+        height: 220px;
+        font-size: 18px;
+    }
+}
+
+     
+
+
+@media only screen and (min-width: 360px) and (max-width: 575px) {
+.inicioNoticias{
+    height: 190px;
+    font-size: 15px;
+}
+}

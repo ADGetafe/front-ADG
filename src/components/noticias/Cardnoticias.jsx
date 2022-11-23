@@ -1,11 +1,12 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
-// import image1 from "../../assets/image01.jpg";
-import './cardblog.css';
-
+//import { useEffect, useState } from 'react';
+import image1 from "../../assets/image01.jpg";
+import { Button } from '@material-ui/core';
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight"
+import './cardnoticias.css';
 
 function Cardnoticias({title,imageUrl,body}) {
-const [noticias, setNoticias] = useState([]);
+/*const [noticias, setNoticias] = useState([]);
 
 useEffect(() => {
 fetch('https://127.0.0.1:8000/not', {
@@ -13,39 +14,75 @@ fetch('https://127.0.0.1:8000/not', {
     headers: new Headers({ 'Content-Type' : 'application/json'}),})
 .then((res) => res.json())
 .then((data)=>setNoticias(data))
-}, []);
+}, []);*/
 
 return (
 
-<section className="blog">
-    {noticias.map((int) => {
-        return(
-    <div key={int.id} className="card-container">
-        <div className="image-container">
-            <img src={int.imagen_noticia} alt="img"/>
+<section className="noticias">
+    {/*{noticias.map((int) => {
+        return( */}
+   {/*<div key={int.id} className="card-container">*/} 
+    <div className="containerNoticias">
+        <div className="imageNoticias">
+            {/*<img src={int.imagen_noticia} alt="img"/>*/}
+            <img src={image1} alt="img"/>
         </div>
 
 
-        <div className="text">
-            <div className="card-content">
-                <div className="card-title">
-                    <h3>{int.titulo_noticia}</h3>
+        <div className="textNoticias">
+            <div className="contentNoticias">
+                <div className="titleNoticias">
+                    {/*<h3>{int.titulo_noticia}</h3>*/}
+                    <h2>Titulo</h2>
                 </div>
 
-                <div className="card-body">
-                    <p>{int.fragmento_noticia}</p>
+                <div className="bodyNoticias">
+                {/*<p>{int.fragmento_noticia}</p>*/}
+                    <p>Esto será un texto pequeño</p>
                 </div>
 
-                <div className="btn">
-                    <button>
-                        <a href="/"> Leer más</a>
-                    </button>
+                <div className="btnNoticias">
+                    <Button> Leer más <KeyboardDoubleArrowRightIcon className='icon-diabete' /></Button>
+                   
                 </div>
             </div>
+
+
+            
         </div>
     </div>
-        )
-    })}
+
+    <div className="containerNoticias">
+        <div className="imageNoticias">
+            {/*<img src={int.imagen_noticia} alt="img"/>*/}
+            <img src={image1} alt="img"/>
+        </div>
+
+
+        <div className="textNoticias">
+            <div className="contentNoticias">
+                <div className="titleNoticias">
+                    {/*<h3>{int.titulo_noticia}</h3>*/}
+                    <h2>Titulo</h2>
+                </div>
+
+                <div className="bodyNoticias">
+                {/*<p>{int.fragmento_noticia}</p>*/}
+                    <p>Esto será un texto pequeño</p>
+                </div>
+
+                <div className="btnNoticias">
+                    <Button> Leer más <KeyboardDoubleArrowRightIcon className='icon-diabete' /></Button>
+                   
+                </div>
+            </div>
+
+
+            
+        </div>
+    </div>
+  {/*      )
+    })}*/}
 </section>
 
 
