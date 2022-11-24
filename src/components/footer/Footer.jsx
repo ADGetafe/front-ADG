@@ -47,9 +47,9 @@ function Footer() {
         </div>
         <div className='legal-footer container-footer'>
           <p>Copyright © 2022 ADGetafe. Todos los derechos reservados</p>
-          <Link to='/ingresar'> 
+          <a target="_blank" rel="noreferrer noopener" href='https://127.0.0.1:8000/login'> 
           <p>@</p>
-          </Link>
+          </a>
         </div>
       </footer>
       </>
