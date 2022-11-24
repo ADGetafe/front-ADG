@@ -44,12 +44,12 @@
     justify-content: center;
   }
 
-  .icon-footer label{
+  .icon-footer a {
+    text-decoration: none;
+    color: black;
     font-size: 17px;
     font-weight: 600;
-    margin-left: 10px;
-    
-  }
+}
 
   .icon-footer svg {
     color: #8AD676;
@@ -88,6 +88,12 @@
   .legal-footer {
     display: flex;
     justify-content: center;  
+    align-items: center;
+
+  }
+
+  .legal-footer a {
+    margin-left: 5px;
 
   }
 

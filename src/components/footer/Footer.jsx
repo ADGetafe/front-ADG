@@ -4,6 +4,7 @@ import logo from '../../assets/Logo1.png';
 import mapa from '../../assets/mapa.png';
 import { FaEnvelope, FaMobile, FaPhone } from 'react-icons/fa';
 import { Link } from "react-router-dom"
+import admin from '../../assets/engranaje.png'
 function Footer() {
   return (
     <>
@@ -48,7 +49,7 @@ function Footer() {
         <div className='legal-footer container-footer'>
           <p>Copyright © 2022 ADGetafe. Todos los derechos reservados</p>
           <Link to='/ingresar'> 
-          <p>@</p>
+          <img src={admin} alt='' />
           </Link>
         </div>
       </footer>
