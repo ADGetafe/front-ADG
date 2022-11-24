@@ -71,6 +71,13 @@
     
   }
 
+  
+.text-footer a {
+  display: flex;
+  
+  justify-content: center;
+}
+
   .box-footer p {
     margin: 0; 
     font-size: 17px;  
