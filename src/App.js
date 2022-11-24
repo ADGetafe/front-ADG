@@ -20,8 +20,6 @@ function App() {
       <Router>
         <Header/>
         <Switch>
-
-        
           <Route path='/' exact component={HomePage} />
           <Route path='/nosotros' exact component={Aboutuspage} />
           <Route path='/contact' exact component={Contactpage} />

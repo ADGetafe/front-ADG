@@ -8,17 +8,19 @@ const { id } = useParams();
 const [noticias, setNoticias] = useState([]);
 
 useEffect(() => {
-fetch(`https://127.0.0.1:8000/not/${id}`, {
+fetch(`https://127.0.0.1:8000/news_api/${id}`, {
 method: 'GET',
 headers: new Headers({ 'Content-Type' : 'application/json'}),})
 .then((res) => res.json())
 .then((data)=>setNoticias(data))
+console.log(noticias)
 }, []);
 
   return (
 
     <section className="read">
     {noticias.map((int) => {
+      console.log(int.articulo_noticia)
       return(
         <>
     <div className="leer_mas">
@@ -30,9 +32,8 @@ headers: new Headers({ 'Content-Type' : 'application/json'}),})
          <h3>{int.titulo_noticia}</h3>
     </div>
     
-    <div className= "text">
-    <p>{int.articulo_noticia}</p>
-
+    <div className="text">
+      <div dangerouslySetInnerHTML={{__html: int.articulo_noticia}} />
     </div>
     
     </>
