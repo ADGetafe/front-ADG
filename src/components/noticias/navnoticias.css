@@ -23,7 +23,7 @@
   
   .navbar-categorias a:hover {
     color: #0093CE;
-    font-weight: bold;
+    
   }
 
   @media only screen and (min-width: 769px) and (max-width: 930px){
