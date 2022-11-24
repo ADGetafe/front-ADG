@@ -44,15 +44,16 @@
     justify-content: center;
   }
 
-  .icon-footer label{
+  .icon-footer a {
+    text-decoration: none;
+    color: black;
     font-size: 17px;
     font-weight: 600;
-    margin-left: 10px;
-    
-  }
+}
 
   .icon-footer svg {
     color: #8AD676;
+    margin-right: 8px;
   }
   .icon-footer i {
     
@@ -71,6 +72,13 @@
     
   }
 
+  
+.text-footer a {
+  display: flex;
+  
+  justify-content: center;
+}
+
   .box-footer p {
     margin: 0; 
     font-size: 17px;  
@@ -88,6 +96,12 @@
   .legal-footer {
     display: flex;
     justify-content: center;  
+    align-items: center;
+
+  }
+
+  .legal-footer a {
+    margin-left: 5px;
 
   }
 

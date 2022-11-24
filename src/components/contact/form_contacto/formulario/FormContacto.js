@@ -22,17 +22,17 @@ const FormContacto = () => {
     <div className="container_fcontact">
         <form className="formContact" ref={form} onSubmit={sendEmail}>
             <div className="inputContact">
-                <label>Mi nombre</label>
-                <input type="text" name="user_name" pattern="[a-zA-Z]{4,15}" required />
+                <label>Nombre</label>
+                <input type="text" name="user_name" placeholder='¿Cuál es tu nombre? (Mínimo 3 caracteres)'pattern="[a-zA-Z]{4,15}" required />
 
-                <label>Mi Teléfono</label>
-                <input type="tel" name="user_telephone" pattern="[0-9]{9}" required />
+                <label>Teléfono</label>
+                <input type="tel" name="user_telephone" placeholder='Mínimo 9 dígitos' pattern="[0-9]{9}" required />
                 
-                <label for="reply_to">Mi correo electrónico</label>
-                <input type="email" name="reply_to" required />
+                <label for="reply_to">Correo electrónico</label>
+                <input type="email" name="reply_to" placeholder='¿Cuál es tu correo electrónico?' required />
 
-                <label>Mi consulta</label>
-                <textarea name="message" rows="4" cols="50" required />
+                <label>Consulta</label>
+                <textarea name="message" placeholder='Puedes dejarnos tu consulta. Ejemplo: Me gustaría saber que actividades tienen planificadas para este mes.' rows="4" cols="50" required />
 
                 <div className="buttonContact">
                     <input type="submit" value="Enviar" />

@@ -22,7 +22,13 @@ function Flotante() {
   }
 
   const bodyInsertar = (
-    <div className={styles.modal}>
+
+    
+    <div className={styles.modal}>  
+
+        
+        
+
             <div className='container-flotante'>
               <div className='titleCloseBtn'>
                 <Button onClick={()=>abrirCerrarModalInsertar()}>X</Button>
@@ -30,13 +36,17 @@ function Flotante() {
               {Definiciondata.map((def) => {
           return (
             <>
-              <div className='title-modal'>
+              <div className='heading-modal'>
                   <h1>{def.titulo1}</h1>
               </div>
 
-              <div className="body-modal">
-                  <h3>{def.titulo2}</h3>
-                  <p>{def.parrafo1}</p>
+              <div className="body-modal">                  
+                   <p>{def.parrafo1}</p>
+                   <p>{def.parrafo2}</p>
+                   <p>{def.parrafo3}</p>
+                   <p>{def.parrafo4}</p>
+                   <p>{def.parrafo5}</p>
+
               </div>
             </>
           )

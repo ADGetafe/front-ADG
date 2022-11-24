@@ -1,6 +1,7 @@
 import React from 'react'
 import imagenlanding from '../../../assets/landing.png'
 import './ladingpage.css'
+import { Link } from "react-router-dom"
 
 function Landingpage() {
   return (
@@ -8,8 +9,11 @@ function Landingpage() {
         <section className='landingpage'>
         <div className='container-landing flex-landing'>
             <div className='left-landing'>
-                <h1>ASOCIACIÓN <br/> DIABÉTICOS <br/> GETAFE</h1>
-                <button className='btn-landing'>Suscríbete</button>
+                <h1>ASOCIACIÓN <br/> DIABETES <br/> GETAFE</h1>
+                <Link to='/contact'>
+                    <button className='btn-landing'>Contáctanos</button>
+                </Link>
+
             </div>
 
             <div className='right-landing topMarign'>

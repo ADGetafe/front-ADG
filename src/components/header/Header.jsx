@@ -31,19 +31,17 @@ function Header() {
               <li>
                 <Link to='/noticias'>Noticias</Link>
               </li>
-              <li>
+              {/*<li>
                 <Link to='/actividades'>Actividades</Link>
-              </li>
+              </li>*/}
               <li>
                 <Link to='/revista'>Revista</Link>
               </li>
-              <li>
-                <Link to='/contact'>Contáctanos</Link>
-              </li>
+              
               
               <li>
-                <Link to='/suscribete'>
-                <button className="btnSuscribete">Suscríbete</button>
+                <Link to='/contact'>
+                <button className="btnSuscribete">Contáctanos</button>
                 </Link>
               </li>              
               
