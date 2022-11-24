@@ -34,14 +34,13 @@ headers: new Headers({ 'Content-Type' : 'application/json'}),})
 
 return (
 <section className='carousel'>
-    <h1 style={{ textAlign: "center" }}>Example to setup your carousel in react</h1>
+    <h2 className='carr-noticias' style={{ textAlign: "center" }}>NOTICIAS</h2>
   <div className='carr'>
       <Carousel itemsToShow={1}>
   {noticias.map((int) => {
   return(
     <>
         <Item key={int.id}>
-        {/* <div className='carr-container'> */}
         <div className='portada'>
           <img className='carr-img' src={int.imagen_noticia} alt="noticias"/>
         </div>
@@ -50,13 +49,14 @@ return (
           <p className='titulo-noticia-carr'>{int.creacion_noticia.date}</p>
           <p className='titulo-noticia-carr'>{int.fragmento_noticia}</p>
         
-        <Link to={`/leer/mas/${int.id}`}>
-        <Button>
-        Leer más <KeyboardDoubleArrowRightIcon className='icon-diabete' />
-        </Button>
+        <Link className='leer-mas-link' to={`/leer/mas/${int.id}`}>
+        <div className="flotante">
+          <Button classNam>
+            Leer más <KeyboardDoubleArrowRightIcon className='icon-diabete' />
+          </Button>
+        </div>  
         </Link>
         </div>
-        {/* </div> */}
           </Item>
     </>
       )

@@ -19,6 +19,7 @@ headers: new Headers({ 'Content-Type' : 'application/json'}),})
 return (
 
 <section className="revistas">
+    
 
     {revistas.map((int) => {
     return(
@@ -46,8 +47,8 @@ return (
         </div>
     </>
     )
-    })};
-
+    })}
+    
 </section>
 
 )

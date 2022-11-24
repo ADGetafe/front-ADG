@@ -23,17 +23,16 @@ console.log(noticias)
       console.log(int.articulo_noticia)
       return(
         <>
-    <div className="leer_mas">
-        <img className='leer-mas-image' src={int.imagen_noticia} alt="leer"/>
+    <div className="leer_mas" style={{backgroundImage: `url(${int.imagen_noticia})`}}>
+        {/* <img className='leer-mas-image' src={int.imagen_noticia} alt="leer"/> */}
+      <div className= "title">
+          <h3>{int.titulo_noticia}</h3>
+      </div>
     </div>
-
     
-    <div className= "title">
-         <h3>{int.titulo_noticia}</h3>
-    </div>
     
     <div className="text">
-      <div dangerouslySetInnerHTML={{__html: int.articulo_noticia}} />
+      <div className='inner-text' dangerouslySetInnerHTML={{__html: int.articulo_noticia}} />
     </div>
     
     </>

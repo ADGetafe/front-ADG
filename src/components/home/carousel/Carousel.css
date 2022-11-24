@@ -9,6 +9,20 @@
     margin: 90px 0;
 }
 
+.carr-noticias{
+    font-size: 45px;
+}
+
+.flotante button {
+    color: #BE3535;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.leer-mas-link{
+    text-decoration: none;
+}
+
 .carr {
     font-family: sans-serif;
     display: flex;
