@@ -1,4 +1,9 @@
-.container_ingresar{
+.headingIngresar h1 {
+	text-align: center;
+	font-size: 45px;
+}
+
+.container_fcontact {
 	width: 40%;    
 	padding: 20px;
 	border-radius: 10px;
@@ -9,11 +14,11 @@
   
 }
 
-.formIngresar {
+.formContact {
 	margin: 40px 60px 40px 60px;
 }
 
-.inputIngresar input {
+.inputContact input {
     width: 100%;
     padding: 3px 10px;
     border-radius: 5px;
@@ -25,14 +30,7 @@
    
 }
 
-.inputIngresar label{
-	width: 100px;
-    font-weight: 600;    
-    margin: 0 0 5px 10px;
-    font-size: 21px;
-}
-
-.inputIngresar textarea{
+.inputContact textarea{
 	width: 100%;
 	padding: 3px 10px;
 	border-radius:5px;
@@ -41,10 +39,24 @@
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	background-color:rgba(222, 238, 229, 0.25);
 	resize: none;   
-	margin-bottom: 5px;
+	margin-bottom: 5px; 
+	
+    
+
 }
 
-.buttonIngresar input {
+.inputContact label {
+
+    width: 100px;
+    font-weight: 600;
+    
+    margin: 0 0 5px 10px;
+    font-size: 21px;
+}
+
+
+
+.buttonContact input {
 	width: 100%;
 	display: inline-block;
 	padding: 8px;
@@ -58,15 +70,13 @@
 	margin-top: 30px;
 	font-size: 25px;
     
-}
+}	   
 
-
-
-
+ 
 
 @media only screen and (min-width: 769px) and (max-width: 1500px) {
-	.container_ingresar {
-		width: 50%;
+	.container_fcontact {
+		width: 75%;
 		padding: 20px;
 		margin: 60px auto;
 		
@@ -76,32 +86,31 @@
 
   @media only screen and (min-width: 576px) and (max-width: 768px){
 
-	.container_ingresar{
+	.container_fcontact{
 		width: 76%;
 	}
-	.formIngresar {
+	.formContact {
 		margin: 30px 0px 30px 0px;
 
 	}
 
-	.inputIngresar label {
+	.inputContact label {
 		margin: 0 0 5px 10px;
 		font-size: 18px;
 	}
 
-	.inputIngresar input {
+	.inputContact input {
 		height: 45px;
 		margin: 7px 0 18px 0;
 	}
 
-	.inputIngresar textarea {
+	.inputContact textarea {
 		margin: 7px 0 5px 0;
 		height: 90px;
 	}
 
-	.buttonIngresar input {
-		font-size: 20px;
-		height: 44px;
+	.pv{
+		font-size: 15px;
 	}
 
 
@@ -112,25 +121,30 @@
 
   @media only screen and (min-width: 360px) and (max-width: 575px) {
 	
-	.container_ingresar{
+	.container_fcontact{
 		width: 76%;
 	}
-	.formIngresar {
+	.formContact {
 		margin: 30px 0px 30px 0px;
 
 	}
 
-	.inputIngresar label {
+	.inputContact label {
 		margin: 0 0 5px 10px;
 		font-size: 15px;
 	}
 
-	.inputIngresar input {
+	.inputContact input {
 		height: 35px;
 		margin: 7px 0 18px 0;
 	}
 
-	.buttonIngresar input {
+	.inputContact textarea {
+		margin: 7px 0 5px 0;
+		height: 80px;
+	}
+
+	.buttonContact input{
 		font-size: 18px;
 	}
   }

@@ -72,7 +72,9 @@
 
 .container-flotante{       
     width: 300px;
-    padding: 20px 20px 20px 20px;    
+    height: 500px;
+    padding: 20px 20px 20px 20px;
+    overflow: scroll;    
 }
 
 .titleCloseBtn button{
@@ -85,6 +87,12 @@
 
 .body-modal{
     font-size: 15px;
+
+    flex-direction: column;
+    flex: 50% 1;
+    text-align: left;
 }
+
+
 
 }

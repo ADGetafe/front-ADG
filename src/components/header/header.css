@@ -113,8 +113,8 @@
       position: absolute;
       display: block;
       background-color: #FFFEFE;
-      left: 50px;
-      top: 75px;
+      left: 0px;
+      top: 70px;
       transition: 0.5s;
       width: 100%;    
       z-index: 5;
@@ -145,7 +145,7 @@
     
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 360px) {
     header .icon{
       display: none;
     }
@@ -158,12 +158,13 @@
       position: absolute;
       display: block;
       background-color: #FFFEFE;
-      left: 50px;
+      left: 0px;
       top: 75px;
       transition: 0.5s;
       width: 100%;    
       z-index: 5;
-      margin-top: 150px;
+      margin-top: 148px;
+      font-size: 15px;
     }
   
     .nav-links-sidebar {
@@ -181,11 +182,13 @@
       display: block;
       position: absolute;
       right: 30px;
-      font-size: 30px;
+      font-size: 10px;
       color: #000;
       border: 1px solid #000;
-      padding: 5px 10px;
+      
     }
+
+
   
     
   }

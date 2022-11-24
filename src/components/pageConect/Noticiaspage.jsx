@@ -1,14 +1,14 @@
 import React from 'react'
-import Blog from '../blog/Blog'
-import Barra from '../blog/Barra'
-import Cardblog from '../blog/Cardblog'
+import Noticias from '../noticias/Noticias'
+import Navnoticias from '../noticias/Navnoticias'
+import Cardnoticias from '../noticias/Cardnoticias'
 
 function Noticiaspage() {
   return (
     <>
-    <Blog/>
-    <Barra />
-    <Cardblog/>
+    <Noticias/>
+    <Navnoticias />
+    <Cardnoticias/>
     </>
   )
 }

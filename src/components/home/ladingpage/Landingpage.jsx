@@ -10,7 +10,6 @@ function Landingpage() {
             <div className='left-landing'>
                 <h1>ASOCIACIÓN <br/> DIABÉTICOS <br/> GETAFE</h1>
                 <button className='btn-landing'>Suscríbete</button>
-                
             </div>
 
             <div className='right-landing topMarign'>
