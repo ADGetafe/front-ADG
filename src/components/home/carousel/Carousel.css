@@ -55,3 +55,25 @@
 .titulo-noticia-carr{
     font-size: 15px;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 575px){
+
+    .carr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 115%;
+        align-items: center;
+    }
+
+
+    .rec-arrow-right{
+        display: none;
+    }
+
+
+    .rec-arrow-left{
+        display: none;
+    }
+    
+    }

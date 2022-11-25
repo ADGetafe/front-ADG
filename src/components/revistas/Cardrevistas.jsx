@@ -39,7 +39,7 @@ return (
                 </div>
                 <div className="btnRevistas">
                     <button>
-                        <a href={int.revista_revista}>Descargar</a>
+                        <a target="_blank" rel="noreferrer noopener" href={int.revista_revista}>Descargar</a>
                         <img src={descargar} alt='' />
                     </button>
                 </div>

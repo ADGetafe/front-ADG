@@ -18,6 +18,22 @@ import styled from "styled-components";
     color: #000;
     margin: 0 25px;
     font-size: 4em;
+
+    @media only screen and (min-width: 360px) and (max-width: 575px){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 127%;
+    background-color: #ffffff;
+    color: #000;
+    margin: 0 25px;
+    font-size: -18em;
+    flex-direction: column;
+    height: 100vh;
+    overflow: scroll;
+    justify-content: space-between
+}
   `;
 
 export default function Carr() {

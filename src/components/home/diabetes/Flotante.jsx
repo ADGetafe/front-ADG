@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
     inputMaterial:{
       width: '100%'
     }
+    
   }));
 
 function Flotante() {
