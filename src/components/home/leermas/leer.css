@@ -1,0 +1,37 @@
+/* .leer_mas img {
+} */
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-text {
+    width: 70%;
+}
+
+.leer_mas {
+    height: 400px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: white;
+    display: flex;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 575px){
+.title {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 20px;
+}
+}

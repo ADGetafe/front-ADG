@@ -1,0 +1,36 @@
+.inicioContact {
+    height: 400px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../assets/contact.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: white;
+    display: flex;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+       
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .inicioContact{
+        height: 220px;
+        font-size: 18px;
+    }
+}
+
+     
+
+
+@media only screen and (min-width: 360px) and (max-width: 575px) {
+.inicioContact{
+    height: 190px;
+    font-size: 15px;
+}
+}

@@ -1,0 +1,137 @@
+.container_ingresar{
+	width: 40%;    
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	margin: 60px auto;
+	background-color: rgba(222, 238, 229, 0.25);
+
+  
+}
+
+.formIngresar {
+	margin: 40px 60px 40px 60px;
+}
+
+.inputIngresar input {
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(142, 141, 141);
+    height: 50px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    background-color: rgba(222, 238, 229, 0.25);
+	margin-bottom: 20px;
+   
+}
+
+.inputIngresar label{
+	width: 100px;
+    font-weight: 600;    
+    margin: 0 0 5px 10px;
+    font-size: 21px;
+}
+
+.inputIngresar textarea{
+	width: 100%;
+	padding: 3px 10px;
+	border-radius:5px;
+	border:0.1px solid rgb(142, 141, 141);	
+	height: 100px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(222, 238, 229, 0.25);
+	resize: none;   
+	margin-bottom: 5px;
+}
+
+.buttonIngresar input {
+	width: 100%;
+	display: inline-block;
+	padding: 8px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	background-color: #0093CE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: 30px;
+	font-size: 25px;
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1500px) {
+	.container_ingresar {
+		width: 50%;
+		padding: 20px;
+		margin: 60px auto;
+		
+	}
+       
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 768px){
+
+	.container_ingresar{
+		width: 76%;
+	}
+	.formIngresar {
+		margin: 30px 0px 30px 0px;
+
+	}
+
+	.inputIngresar label {
+		margin: 0 0 5px 10px;
+		font-size: 18px;
+	}
+
+	.inputIngresar input {
+		height: 45px;
+		margin: 7px 0 18px 0;
+	}
+
+	.inputIngresar textarea {
+		margin: 7px 0 5px 0;
+		height: 90px;
+	}
+
+	.buttonIngresar input {
+		font-size: 20px;
+		height: 44px;
+	}
+
+
+  }
+
+       
+  
+
+  @media only screen and (min-width: 360px) and (max-width: 575px) {
+	
+	.container_ingresar{
+		width: 76%;
+	}
+	.formIngresar {
+		margin: 30px 0px 30px 0px;
+
+	}
+
+	.inputIngresar label {
+		margin: 0 0 5px 10px;
+		font-size: 15px;
+	}
+
+	.inputIngresar input {
+		height: 35px;
+		margin: 7px 0 18px 0;
+	}
+
+	.buttonIngresar input {
+		font-size: 18px;
+	}
+  }
+  
